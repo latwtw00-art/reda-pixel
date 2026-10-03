@@ -1,0 +1,22 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, -apple-system, sans-serif; background: #0a0b0f; color: #e4e7ec; line-height: 1.6; }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+.site-header { background: #121418; border-bottom: 1px solid rgba(255,255,255,0.08); padding: 36px 0; }
+.header-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 20px; }
+.badge { display: inline-block; padding: 4px 10px; background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.3); border-radius: 6px; font-size: 12px; font-weight: 600; margin-bottom: 10px; }
+.repo-title { font-size: 28px; color: #fff; margin-bottom: 6px; }
+.repo-desc { color: #98a2b3; max-width: 680px; }
+.meta-stats { background: #0a0b0f; border: 1px solid rgba(255,255,255,0.08); padding: 14px 18px; border-radius: 10px; font-size: 13px; color: #d0d5dd; }
+.main-grid { display: grid; grid-template-columns: 1fr 320px; gap: 24px; padding: 32px 24px; }
+@media (max-width: 840px) { .main-grid { grid-template-columns: 1fr; } }
+.readme-panel, .card { background: #121418; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+h2, h3 { color: #fff; margin-bottom: 14px; }
+.markdown-body h1, .markdown-body h2, .markdown-body h3 { margin-top: 18px; margin-bottom: 8px; color: #fff; }
+.markdown-body p, .markdown-body li { color: #d0d5dd; margin-bottom: 8px; }
+.markdown-body code { background: rgba(16,185,129,0.12); color: #6ee7b7; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; }
+.code-block { background: #0a0b0f; border: 1px solid rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; overflow-x: auto; margin: 12px 0; }
+.code-block code { background: none; color: #34d399; padding: 0; }
+.mono-list { list-style: none; font-family: monospace; font-size: 12px; color: #98a2b3; max-height: 320px; overflow-y: auto; }
+.mono-list li { padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.04); word-break: break-all; }
+.spacer { height: 8px; }
